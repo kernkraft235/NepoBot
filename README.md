@@ -1,14 +1,8 @@
-# Career-Ops
+# Career-Ops: NON-SOFTWARE-ENGINEER FORK
 
-**[:gb: English](#what-is-this)** | **[:es: Español](#es-versión-en-español)**
+**Differences:** I will be modifying this to focus on normal jobs via LinkedIn and Indeed. I will also be swapping the harness to Codex or OpenCode since it's hard to pay for Claude when you have no job and werre never making SWE money.
 
 > AI-powered job search pipeline built on Claude Code. Evaluate offers, generate tailored CVs, scan portals, and track everything -- powered by AI agents.
-
-![Claude Code](https://img.shields.io/badge/Claude_Code-000?style=flat&logo=anthropic&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white)
-![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
 ---
 
@@ -31,8 +25,6 @@ Career-Ops turns Claude Code into a full job search command center. Instead of m
 Career-ops is agentic: Claude Code navigates career pages with Playwright, evaluates fit by reasoning about your CV vs the job description (not keyword matching), and adapts your resume per listing.
 
 > **Heads up: the first evaluations won't be great.** The system doesn't know you yet. Feed it context -- your CV, your career story, your proof points, your preferences, what you're good at, what you want to avoid. The more you nurture it, the better it gets. Think of it as onboarding a new recruiter: the first week they need to learn about you, then they become invaluable.
-
-Built by someone who used it to evaluate 740+ job offers, generate 100+ tailored CVs, and land a Head of Applied AI role. [Read the full case study](https://santifer.io/career-ops-system).
 
 ## Features
 
@@ -125,6 +117,8 @@ You paste a job URL or description
 ```
 
 ## Pre-configured Portals
+
+>[!NOTE] I will be removing these, to replace with normie job portals.
 
 The scanner comes with **45+ companies** ready to scan and **19 search queries** across major job boards. Copy `templates/portals.example.yml` to `portals.yml` and add your own:
 
